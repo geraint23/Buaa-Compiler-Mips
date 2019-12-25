@@ -23,7 +23,7 @@ void original_tmpCode() {
 
 void std_tmpCode() {
     ofstream tmpCode;
-    tmpCode.open("16005044_郗哈颉_优化前中间代码.txt");
+    tmpCode.open("xxxxxxxx_xxx_优化前中间代码.txt");
     for (auto &iter : quadraExpVec) {
         switch (iter.op) {
             case 0:
@@ -172,7 +172,7 @@ void std_tmpCode() {
 
 void std_tmpCode2() {
     ofstream tmpCode;
-    tmpCode.open("16005044_郗哈颉_优化后中间代码.txt");
+    tmpCode.open("xxxxxxx_xxx_优化后中间代码.txt");
     for (auto &iter : quadraExpVec) {
         switch (iter.op) {
             case 0:
